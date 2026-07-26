@@ -1,12 +1,15 @@
-import Navbar from "../../components/Landing/Navbar/Navbar";
-// import Hero from "../../components/Landing/Hero/Hero";
-
+import Hero from "../../components/Landing/Hero/Hero";
+import Features from "../../components/Landing/Features/Features";
+import CTA from "../../components/Landing/CTA/CTA";
+import Footer from "../../components/Landing/Footer/Footer";
 function Landing() {
   return (
     <>
-      <Navbar />
-      {/* <Hero /> */}
-    </>
+    <Hero />
+     <Features />
+     <CTA />
+    <Footer />  
+</>
   );
 }
 
